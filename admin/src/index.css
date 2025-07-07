@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Outfit;
+}
+
+::-webkit-scrollbar {
+    @apply hidden;
+}
+
+/* In your Tailwind config or a component CSS file */
+.input-style {
+  @apply border rounded-md w-full px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary;
+}
